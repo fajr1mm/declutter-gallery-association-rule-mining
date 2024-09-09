@@ -30,6 +30,105 @@ You can install the required libraries using `pip`:
 pip install mlxtend opencv-python dlib face_recognition mtcnn numpy pandas scikit-learn matplotlib pillow
 ```
 
+## Cloning the Repository
+
+To get started with the project, first, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/yourrepository.git
+```
+
+Replace `https://github.com/yourusername/yourrepository.git` with the actual URL of your repository.
+
+## Setting Up the Environment
+
+1. **Navigate to the Project Directory**:
+
+   Change into the project directory you just cloned:
+
+   ```bash
+   cd yourrepository
+   ```
+
+2. **Create a Virtual Environment**:
+
+   It’s a good practice to use a virtual environment to manage dependencies. You can create a virtual environment using `venv`:
+
+   ```bash
+   python -m venv env
+   ```
+
+3. **Activate the Virtual Environment**:
+
+   - **On Windows**:
+
+     ```bash
+     .\env\Scripts\activate
+     ```
+
+   - **On macOS and Linux**:
+
+     ```bash
+     source env/bin/activate
+     ```
+
+4. **Install the Required Libraries**:
+
+   With the virtual environment activated, install the required libraries using `pip`:
+
+   ```bash
+   pip install mlxtend opencv-python dlib face_recognition mtcnn numpy pandas scikit-learn matplotlib pillow
+   ```
+
+5. **Install Jupyter Notebook**:
+
+   To run Jupyter Notebook, you need to install it as well:
+
+   ```bash
+   pip install notebook
+   ```
+
+## Running Jupyter Notebook
+
+1. **Start Jupyter Notebook**:
+
+   From the command line with the virtual environment activated, start Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+   This command will open Jupyter Notebook in your default web browser.
+
+2. **Open the Notebook**:
+
+   - Once Jupyter Notebook is running, it will display a file browser in your web browser.
+   - Navigate to the directory where the notebook files (`.ipynb`) are located. This will typically be within the cloned repository's folder.
+   - Click on the desired notebook file to open it and begin working with it.
+
+## Example Directory Structure
+
+Assuming you have cloned the repository into a folder named `yourrepository`, the typical directory structure might look like this:
+
+```
+yourrepository/
+│
+├── images/
+│   └── ... (your images)
+├── notebooks/
+│   └── your_notebook.ipynb
+├── src/
+│   └── ... (your code files)
+├── requirements.txt
+└── README.md
+```
+
+Ensure you navigate to the appropriate folder where your `.ipynb` files are located to open and work with them in Jupyter Notebook.
+
+---
+
+Feel free to adjust the paths and repository details according to your specific setup.
+
 ## Getting Started
 
 1. **Set User Parameters**: Define the user identifier (`pengguna_user`) to specify which dataset and directories to use.
