@@ -171,7 +171,7 @@ Factors such as lighting, photo quality, and face pose affect recognition accura
   - Minimum Support: 3%
   - Minimum Confidence: 70%
 
-### User Scenario 1
+### User Scenario Users 1
 
 - **Total Photos Processed**: 672
 - **Album Creation Time**: ~25 minutes
@@ -189,10 +189,6 @@ The face recognition system achieved a good accuracy of 88.12%, but factors like
 ## Contributing
 
 Feel free to contribute to this project by opening issues or submitting pull requests. For detailed contributions, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
