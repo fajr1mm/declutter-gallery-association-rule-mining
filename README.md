@@ -1,4 +1,4 @@
-# Face Recognition and Data Management System
+# Implementation of Association Rule Mining with the Apriori Algorithm for Automating Digital Photo Collection Management
 
 ## Overview
 
@@ -53,7 +53,7 @@ pip install mlxtend opencv-python dlib face_recognition mtcnn numpy pandas sciki
 
 ## Design Diagram
 
-![Diagram Description](declutter-gallery-association-rule-mining/image.jpg)
+![Diagram Description](image.jpg)
 
 ## Experiment Results
 
